@@ -3,32 +3,236 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Business Site</title>
+  <meta name="description" content="About Apex Web Studio. We specialize in building authoritative websites for professional service businesses that want to lead their market.">
+  <title>About Us | Apex Web Studio</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
       <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="Logo" width="120" height="40">
+        <span class="logo-text">Apex<span class="logo-accent">Web</span></span>
       </a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="pricing.html" class="nav-link">Packages</a></li>
+        <li><a href="process.html" class="nav-link">Process</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="contact.html" class="nav-link btn btn-primary btn-nav">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="content">
-      <h1>About us</h1>
-      <p>Add your company story, mission, and team information here.</p>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-title">About Us</h1>
+        <p class="page-subtitle">Building authoritative websites for businesses that take their reputation seriously.</p>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="section section-light">
+      <div class="container container-narrow">
+        <div class="about-intro">
+          <h2 class="about-heading">Our Mission</h2>
+          <p class="lead-text">We exist to help established businesses present themselves with the authority and professionalism they've earned.</p>
+          <p>Too many capable, successful businesses are held back by websites that don't reflect their true caliber. We change that. Every website we build is designed to position our clients as the clear leaders in their market.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What We Believe</h2>
+        </div>
+        <div class="philosophy-grid">
+          <div class="philosophy-card">
+            <h3>Quality Over Quantity</h3>
+            <p>We take on a limited number of projects so each client receives our full attention and expertise. We don't use templates or cut corners. Every element is crafted with purpose.</p>
+          </div>
+          <div class="philosophy-card">
+            <h3>Trust Through Design</h3>
+            <p>Your website should make visitors feel confident before they ever speak with you. We design to build trust instantly—through clarity, professionalism, and attention to detail.</p>
+          </div>
+          <div class="philosophy-card">
+            <h3>Results Matter</h3>
+            <p>A beautiful website means nothing if it doesn't perform. Every design decision we make serves your business goals. We measure success by outcomes, not aesthetics alone.</p>
+          </div>
+          <div class="philosophy-card">
+            <h3>Partnership, Not Just Service</h3>
+            <p>We're invested in your success. We take time to understand your business, your clients, and your market. Your wins are our wins.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specialization Section -->
+    <section class="section section-light">
+      <div class="container container-narrow">
+        <div class="specialization-content">
+          <h2 class="about-heading">Our Specialization</h2>
+          <p class="lead-text">We focus exclusively on professional service businesses.</p>
+          <p>This specialization allows us to deeply understand the unique needs of businesses where reputation and trust are paramount. We know what works for law firms, medical practices, financial advisors, consultants, and high-end service providers because that's all we do.</p>
+          <p>When you work with a generalist, you get generic solutions. When you work with specialists, you get expertise refined through focus.</p>
+          
+          <div class="specialization-list">
+            <h3>We Work With:</h3>
+            <ul>
+              <li>Law firms and legal practices</li>
+              <li>Medical and healthcare practices</li>
+              <li>Financial advisors and accountants</li>
+              <li>Management and business consultants</li>
+              <li>Architecture and engineering firms</li>
+              <li>High-end service businesses</li>
+              <li>Founder-led professional companies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Standards Section -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Standards</h2>
+          <p class="section-subtitle">What you can expect from every project.</p>
+        </div>
+        <div class="standards-grid">
+          <div class="standard-item">
+            <div class="standard-number">01</div>
+            <div class="standard-content">
+              <h3>Professional Excellence</h3>
+              <p>Every website meets the standards you'd expect from a firm that serves other professionals. Clean code, refined design, flawless execution.</p>
+            </div>
+          </div>
+          <div class="standard-item">
+            <div class="standard-number">02</div>
+            <div class="standard-content">
+              <h3>Clear Communication</h3>
+              <p>No jargon, no mystery. You'll always know what's happening, what comes next, and what we need from you.</p>
+            </div>
+          </div>
+          <div class="standard-item">
+            <div class="standard-number">03</div>
+            <div class="standard-content">
+              <h3>Timely Delivery</h3>
+              <p>We meet our deadlines. If we say your website will be ready in three weeks, it will be ready in three weeks.</p>
+            </div>
+          </div>
+          <div class="standard-item">
+            <div class="standard-number">04</div>
+            <div class="standard-content">
+              <h3>Ongoing Support</h3>
+              <p>We don't disappear after launch. Questions get answered. Issues get resolved. We're here for the long term.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section (Optional/Generic) -->
+    <section class="section section-white">
+      <div class="container container-narrow">
+        <div class="team-content">
+          <h2 class="about-heading">The Team</h2>
+          <p class="lead-text">A small team of experienced professionals dedicated to exceptional work.</p>
+          <p>We're not a large agency with layers of account managers and junior staff. We're a focused team of senior professionals who work directly on your project. You'll work with experienced designers and developers who understand business, not just code.</p>
+          <p>Our size is intentional. It allows us to maintain the quality standards that our clients expect and deserve. Every project gets the attention of our best people, because we don't have anyone else.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Work With Us</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+            <h3>Specialized Expertise</h3>
+            <p>We only work with professional service businesses. Our expertise is focused and deep.</p>
+          </div>
+          <div class="why-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <h3>Reliable Process</h3>
+            <p>A proven approach refined over years. Predictable timelines and outcomes.</p>
+          </div>
+          <div class="why-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <h3>Client-Focused</h3>
+            <p>Your success is our priority. We design for your business goals, not awards.</p>
+          </div>
+          <div class="why-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <h3>Quality Assured</h3>
+            <p>Every detail is checked and refined. We deliver work we're proud of.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Let's Discuss Your Project</h2>
+          <p class="cta-text">We'd welcome the opportunity to learn about your business and explore how we can help.</p>
+          <a href="contact.html" class="btn btn-white btn-lg">Get in Touch</a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Your Business. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-text">Apex<span class="logo-accent">Web</span></span>
+          </a>
+          <p class="footer-tagline">Professional websites for businesses that lead.</p>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Packages</a></li>
+            <li><a href="process.html">Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 class="footer-heading">Contact</h4>
+          <p>contact@apexweb.studio</p>
+          <p>(555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Apex Web Studio. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>
